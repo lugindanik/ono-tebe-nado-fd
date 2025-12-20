@@ -1,48 +1,31 @@
 body {
-  background-color: #f5f5f5;
-  font-family: 'Raleway', sans-serif;
+  background-color: #ffffff;
   font-weight: 400;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p,
-ul,
-ol,
-blockquote {
-  margin: 0;
-  padding: 0;
 }
 
 .content-section {
   box-sizing: border-box;
   width: 100%;
   max-width: 1100px;
-  min-height: 250px;
   margin: auto;
 }
 
 .header {
   display: grid;
-  grid-template-columns: 1fr min-content 1fr;
+  grid-template-columns: 0.9fr 0.7fr 0.5fr;
   align-items: center;
   padding: 92px 50px 96px;
 }
 
 .header__links-list {
   display: flex;
-  gap: 37px;
+  gap: 33px;
   list-style: circle;
-  letter-spacing: 0.8px;
   font-size: 18px;
 }
 
 .header__link {
-  font-size: 16px;
+  font-size: 18px;
   line-height: 1.2;
   text-underline-offset: 4px;
   color: #000000;
@@ -58,20 +41,18 @@ blockquote {
 }
 
 .header__logo-image {
-  display: block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .address {
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
-  justify-self: end;
   font: inherit;
   text-underline-offset: 4px;
   font-size: 18px;
   line-height: 24.3px;
-  width: 240px;
-  padding: 3px 0 4px 0;
 }
 
 .address_link {
@@ -144,7 +125,7 @@ blockquote {
   font-weight: 400;
   text-transform: uppercase;
   background-color: transparent;
-  border: 3px solid #ffffff;
+  border: 1px solid #ffffff;
   color: #ffffff;
 }
 
@@ -189,6 +170,7 @@ blockquote {
   font-size: 22px;
   line-height: 1.2;
   text-decoration: underline;
+  text-underline-offset: 3px;
   z-index: 2;
   color: #ffffff;
 }
@@ -256,19 +238,18 @@ blockquote {
 .about_text_description-block {
   display: flex;
   flex-direction: column;
-  width: 695px;
+  width: 690px;
   gap: 24px;
 }
 
 .about_text {
   font-size: 20px;
-  letter-spacing: 0.1px;
 }
 
 .footer {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  padding: 0 50px;
+  padding: 0 50px 82px;
   justify-content: space-between;
 }
 
